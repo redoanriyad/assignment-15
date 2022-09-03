@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+}
+.fixed-width{
+    width: 1240px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    background: #1abc9c;
+
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left h1{
+    color: azure;
+    padding: 20px;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 100px;
+    transition: .4s;
+
+}
+.header-right ul li a:hover{
+    background: #fff;
+    color: #1abc9c;
+}
+
+/* banner */
+.banner{
+    background: url(about.jpg) no-repeat center;
+    padding: 200px 0;
+    background-size: cover;
+
+}
+
+.banner-caption{
+
+}
+.banner-caption h2{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.banner-caption p{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: bold;
+    text-transform: capitalize;
+}
+.banner-caption a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+
+
+}
+
+.banner-caption a:hover{
+background-color: #fff;
+color: #1abc9c;
+}
+
+.service{
+    margin: 60px;
+    
+}
+.services-iteam{
+    width: 25%;
+    float: left;
+    color: #ddd
+    padding: 25px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.services-iteam span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    color: #1abc9c;
+    margin: auto;
+    font-size: 35px;
+    line-height: 60px;
+    
+}
+.services-iteam h2{
+    margin: 20 0;
+    font-size: 40px;
+}
+.services-iteam p{
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color:rgb(41, 204, 153);
+    margin-top: 150px;
+}
+.about{
+    width: 100%;
+    margin-top: 80px;
+}
+.about h2{
+    text-align: center;
+    color:rgb(43, 46, 45);
+    font-size: 50px;
+}
+.para3{
+    text-align: center;
+    color:rgb(43, 46, 45);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.box{
+    margin-top: 50px;
+}
+.image{
+    width: 40%;
+    float: left;
+}
+.para{
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+}
+h4{
+    margin-left: 150px;
+}
+.para4{
+    color: gray;
+    margin-left: 150px;
+}
+
+.contact{
+    width: 100%;
+    text-align: center;
+}
+.contactus{
+    clear: both;
+    padding-top: 100px;
+    
+}
+.contactus h2{
+    font-size: 50px;
+}
+.para5{
+    text-align: center;
+    font-size: 20px;
+}
+.location{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-top: 100px;
+}
+.gmail{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-left: 250px;
+}
+.phone{
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    margin-left: 250px;
+}
+.icon2{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(41, 204, 153);
+    margin-left: 30px;
+
+}
+
+.para6{
+    width: 180px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 150px;
+    text-align: center;
+}
+.footer ul{
+    background-color: rgb(41, 204, 153)
+}
+.footer ul li{
+    font-size: 30px;
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(41, 204, 153);
+    padding: 10px;
+    margin-left: 30px;
+}
+.footerbtm{
+    width: 1200px;
+    margin: auto;
+    background-color:rgb(46, 65, 79);
+    line-height: 40px;;
+}
+.footerbtm p{
+    color: #fff;
+    text-align: center;
+}
